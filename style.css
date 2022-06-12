@@ -1,0 +1,12 @@
+ div{
+     background-color: red;
+     width: 10rem;
+     height: 10rem;
+     animation: move 4s ease;
+     position: relative;
+ }
+
+ @keyframes move {
+from{ background-color: red;left:0px}
+to{  background-color: yellow;left:200px}
+ }
